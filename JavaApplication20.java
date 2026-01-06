@@ -92,8 +92,8 @@ public class JavaApplication20 {
         System.out.print("Enter Student ID: ");
         String id = scanner.nextLine();
 
-        double[] grades = new double[5];
-        for (int i = 0; i < 5; i++) {
+        double[] grades = new double[3];
+        for (int i = 0; i < 3; i++) {
             grades[i] = getGradeInput("Enter grade for subject " + (i + 1) + ": ");
         }
 
@@ -141,4 +141,5 @@ public class JavaApplication20 {
         return scanner.nextInt();
     }
 }
+
 
